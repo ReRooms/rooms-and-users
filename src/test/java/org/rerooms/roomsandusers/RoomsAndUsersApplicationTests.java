@@ -1,10 +1,10 @@
-package org.rerooms.roomsandusersservice;
+package org.rerooms.roomsandusers;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RoomsAndUsersServiceApplicationTests {
+class RoomsAndUsersApplicationTests {
 
 	@Test
 	void contextLoads() {
