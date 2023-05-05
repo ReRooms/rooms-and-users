@@ -9,7 +9,7 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Match extends AbstractEntity {
 
-    private User user1;
+    private String firstUserId;
 
-    private User user2;
+    private String secondUserId;
 }

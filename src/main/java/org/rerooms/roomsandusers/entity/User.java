@@ -24,7 +24,7 @@ public class User extends AbstractEntity {
     private List<Room> rooms;
 
     public void setAge(byte age) {
-        if (age < 0) {
+        if (age > 13) {
             this.age = age;
         } else {
             throw new IllegalArgumentException("Age should be greater than 0");

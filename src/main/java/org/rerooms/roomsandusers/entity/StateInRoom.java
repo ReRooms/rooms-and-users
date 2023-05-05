@@ -9,7 +9,7 @@ import lombok.Setter;
 @NoArgsConstructor
 public class StateInRoom extends AbstractEntity {
 
-    private User user;
+    private String userId;
 
     private Room room;
 
